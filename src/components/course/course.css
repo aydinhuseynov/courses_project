@@ -1,0 +1,53 @@
+/* .course{
+    width: 230px;
+    height: 350px;
+    border: 1px solid lightgray;
+} */
+.course {
+    border: 2px solid #ddd; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the component */
+    margin-bottom: 20px; /* Spacing between components */
+    width: 300px; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+  }
+  
+  .course img {
+    width: 100%; /* Make the image fill the container */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 10px; /* Spacing between image and text */
+  }
+  
+  .course h4 {
+    font-size: 1.2rem; /* Larger font size for the title */
+    margin-bottom: 5px; /* Spacing below the title */
+  }
+  
+  .course p {
+    font-size: 1rem; /* Font size for the description */
+    margin-bottom: 10px; /* Spacing below the description */
+    font-family: sans-serif;
+    opacity: 0.6;
+  }
+  
+  .course h3 {
+    font-size: 1.5rem; /* Larger font size for the price */
+    color: #007bff; /* Price color */
+    margin-bottom: 10px; /* Spacing below the price */
+  }
+  
+  .course a {
+    display: block; /* Make the link a block element for better styling */
+    text-align: center; /* Center the link text */
+    background-color: #007bff; /* Link background color */
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 0; /* Padding top and bottom */
+    border-radius: 5px; /* Rounded corners for the link */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .course a:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  

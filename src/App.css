@@ -1,0 +1,8 @@
+.course-main{
+    display: flex;
+    margin: 15px 5px ;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
